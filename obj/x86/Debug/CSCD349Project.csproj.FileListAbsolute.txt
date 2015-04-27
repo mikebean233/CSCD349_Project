@@ -1,0 +1,5 @@
+F:\CSCD 349\Project\CSCD349_Project\bin\Debug\ConsoleApplication.exe
+F:\CSCD 349\Project\CSCD349_Project\bin\Debug\ConsoleApplication.pdb
+F:\CSCD 349\Project\CSCD349_Project\obj\x86\Debug\ConsoleApplication.exe
+F:\CSCD 349\Project\CSCD349_Project\obj\x86\Debug\ConsoleApplication.pdb
+F:\CSCD 349\Project\CSCD349_Project\obj\x86\Debug\CSCD349Project.csprojResolveAssemblyReference.cache
