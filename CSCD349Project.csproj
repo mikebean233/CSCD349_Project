@@ -43,12 +43,15 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ability.cs" />
     <Compile Include="Cell.cs" />
     <Compile Include="CharacterAttributes.cs" />
+    <Compile Include="ConcreteGameCharacters.cs" />
     <Compile Include="GameCharacter.cs" />
     <Compile Include="GameItem.cs" />
     <Compile Include="GameObject.cs" />
     <Compile Include="Map.cs" />
+    <Compile Include="NullAbility.cs" />
     <Compile Include="Party.cs" />
     <Compile Include="tester.cs" />
   </ItemGroup>

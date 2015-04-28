@@ -15,26 +15,18 @@ public abstract class GameCharacter : GameObject, IComparable<GameCharacter>
        
         // This constructor is used to create a GamaCharacter instance with a particular id for the purposes 
         // of searching for a character in a list.
-        public GameCharacter(int id) : base("")
-        {
-            _id = id;
-        }
+        public GameCharacter(int id) : base(""){_id = id;}
     
-        public void update(CharacterEvent e)
-        {
-
-        }
-        public void PerformAbility(){}
+        public void PerformAbility() { }
 
         public int CompareTo(GameCharacter other)
         {
  	        return _id - other._id;
         }
-        
-        
-    }
-    public class CharacterEvent
-    {
 
+        public override string ToString()
+        {
+            return GetName() + " " + _id;
+        }   
     }
 }
